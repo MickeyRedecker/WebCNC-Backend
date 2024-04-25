@@ -22,7 +22,7 @@ This project is the backend, the webcnc_frontend project is also required to use
 
 ### Building the project
 
-##### Step 1: TLS Certificates
+#### Step 1: TLS Certificates
 
 Using a TLS certificate is required for the HTTPS API offered by the backend.
 
