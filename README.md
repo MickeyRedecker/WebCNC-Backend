@@ -2,9 +2,11 @@
 ## Web-based Centralized Network Controller (CNC) for Time-Sensitive Networking (TNS)
 
 This software is released under the MIT License. 
+
 It has been developed as part of a bachelor thesis at the University of Stuttgart.
 
 The WebCNC can be used to manually configure IEEE 802.1Qbv compliant switches that support SNMPv3 through a web interface. 
+
 This project is the backend, the webcnc_frontend project is also required to use the WebCNC.
 
 ### Prerequisites:
@@ -57,6 +59,7 @@ mvn package
 ### Running the backend
 
 The backend accepts launch parameters to configure some settings of the WebCNC.
+
 It is recommended to run the backend in a screen or similar so that it keeps running when you close the terminal.
 
 #### not recommended
