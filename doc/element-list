@@ -1,0 +1,9 @@
+redecker.mickey.webcnc.netstate
+redecker.mickey.webcnc.restcontroller
+redecker.mickey.webcnc.setup
+redecker.mickey.webcnc.switchcomms.manager
+redecker.mickey.webcnc.switchcomms.talker
+redecker.mickey.webcnc.switchcredstore
+redecker.mickey.webcnc.types
+redecker.mickey.webcnc.types.enums
+redecker.mickey.webcnc.types.exceptions

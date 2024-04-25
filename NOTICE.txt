@@ -1,0 +1,7 @@
+Dependencies used in the webcnc project:
+
+SNMP4J (Apache License, Version 2.0)
+Spring Boot (Apache License, Version 2.0)
+Apache Log4j (Apache License, Version 2.0)
+Apache Tomcat (Apache License, Version 2.0)
+Jackson (Apache License, Version 2.0)
