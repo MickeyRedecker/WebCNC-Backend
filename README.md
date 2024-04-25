@@ -1,4 +1,4 @@
-# WebCNC
+# WebCNC Backend
 ## Web-based Centralized Network Controller (CNC) for Time-Sensitive Networking (TNS)
 
 This software is released under the MIT License. 
