@@ -1,4 +1,4 @@
-#WebCNC
+# WebCNC
 ## Web-based Centralized Network Controller (CNC) for Time-Sensitive Networking (TNS)
 
 This software is released under the MIT License. 
@@ -7,18 +7,18 @@ It has been developed as part of a bachelor thesis at the University of Stuttgar
 The WebCNC can be used to manually configure IEEE 802.1Qbv compliant switches that support SNMPv3 through a web interface. 
 This project is the backend, the webcnc_frontend project is also required to use the WebCNC.
 
-###Prerequisites:
+### Prerequisites:
 
-####Building the backend
+#### Building the backend
 
 - Java SE JDK (compatible with Version 17 and newer)
 - Apache Maven (tested with version 3.9.2)
 
-####Hosting the backend
+#### Hosting the backend
 
 - Java SE JRE (compatible with Version 17 and newer)
 
-###Building the project
+### Building the project
 
 ##### Step 1: TLS Certificates
 
@@ -54,12 +54,12 @@ mvn package
 
 - in the target folder, you will find the webcnc-1.0.jar file. This needs to be moved to the server
 
-###Running the backend
+### Running the backend
 
 The backend accepts launch parameters to configure some settings of the WebCNC.
 It is recommended to run the backend in a screen or similar so that it keeps running when you close the terminal.
 
-####not recommended
+#### not recommended
 
 Running the backend without any launch parameters is simple. Just run 
 ```
@@ -68,7 +68,7 @@ java -jar webcnc-1.0.jar
 in the respective directory. It will use default values for all available parameters.
 THIS IS NOT RECOMMENDED! IT WILL USE THE DEFAULT PASSWORD!
 
-####launch parameters
+#### launch parameters
 
 the following launch parameters are supported:
 
@@ -81,7 +81,7 @@ Using the launch parameters can look like this:
 java -jar webcnc-1.0.jar --password=myPassword --switchConnectionRetries=5 --switchConnectionTimeout=2000
 ```
 
-###stopping the backend
+### stopping the backend
 
 If you want to stop the backend, just kill the process (with STRG `+` C on Linux).
 If the *server.shutdown* is set to *true* in the application.properties, it will perform a graceful shutdown that finishes all active HTTP requests, but maximally for the duration of the *spring.lifecycle.timeout-per-shutdown-phase* value.
