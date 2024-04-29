@@ -46,6 +46,8 @@ openssl pkcs12 -export -out keyStore.p12 -inkey mykey.pem -in mycertificate.pem
 - set *server.ssl.key-store-password* to the key store's password
 - set *server.ssl.keyAlias* to the key's alias
 
+depending on your setup, you might have to change your firewall rules to allow requests on server.port
+
 #### Step 3: Building the backend
 
 - navigate to the project's root directory (the directory containing this file)
