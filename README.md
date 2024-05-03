@@ -89,4 +89,4 @@ java -jar webcnc-1.0.jar --password=myPassword --switchConnectionRetries=5 --swi
 ### stopping the backend
 
 If you want to stop the backend, just kill the process (with STRG `+` C on Linux).
-If the *server.shutdown* is set to *true* in the application.properties, it will perform a graceful shutdown that finishes all active HTTP requests, but maximally for the duration of the *spring.lifecycle.timeout-per-shutdown-phase* value.
+If the *server.shutdown* is set to *graceful* in the application.properties, it will perform a graceful shutdown that finishes all active HTTP requests, but maximally for the duration of the *spring.lifecycle.timeout-per-shutdown-phase* value.
